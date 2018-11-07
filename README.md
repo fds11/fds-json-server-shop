@@ -3,7 +3,7 @@ FDS JSON Server (쇼핑몰)
 
 서버를 사용하기 전에 아래의 설정을 해주세요.
 
-1. [저장소 복사](https://github.com/fds11/fds-mid-template#%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0)를 하신 뒤, Git clone 해주세요.
+1. 이 저장소를 복사하신 뒤, Git clone 해주세요. ([저장소 복사 방법](https://github.com/fds11/fds-mid-template#%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0))
 1. `db.default.json` 파일을 복사해서 `db.json` 파일을 만들어주세요.
 1. `.env.dist` 파일을 복사해서 `.env` 파일을 만드신 후, `JWT_SECRET` 환경변수를 설정해주세요. (이것은 토큰 암호화를 위해 사용되는 문자열입니다. 알파벳 및 숫자를 띄어쓰기 없이 아무렇게나 넣어주시면 됩니다.)
 1. `npm install` 실행 후 `npm start` 해주시면 API 서버가 `localhost:3000` 주소에서 실행됩니다.
