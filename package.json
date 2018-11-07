@@ -4,7 +4,7 @@
   "description": "FDS JSON Server Example",
   "main": "server.js",
   "scripts": {
-    "start": "fds-json-server --watch .data/db.json"
+    "start": "fds-json-server --watch ./db.json"
   },
   "dependencies": {
     "fds-json-server": "0.1.1"
