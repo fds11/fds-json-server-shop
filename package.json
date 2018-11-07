@@ -1,0 +1,24 @@
+{
+  "name": "hello-fds-json-server",
+  "version": "1.0.0",
+  "description": "FDS JSON Server Example",
+  "main": "server.js",
+  "scripts": {
+    "start": "fds-json-server --watch .data/db.json"
+  },
+  "dependencies": {
+    "fds-json-server": "0.1.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/fds-json-server"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "fds-json-server"
+  ]
+}
